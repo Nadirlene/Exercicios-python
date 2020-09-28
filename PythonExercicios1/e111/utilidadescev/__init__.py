@@ -1,0 +1,1 @@
+from e111.utilidadescev import moeda, dado

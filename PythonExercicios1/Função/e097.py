@@ -1,0 +1,9 @@
+def escreva(msg):
+    print('~'*(len(msg)+4))
+    print(f'  {msg}')
+    print('~'*(len(msg)+4))
+
+
+escreva('Nadirlene Oliveira')
+escreva('Jhean')
+escreva('Aprendendo pogramar em Pyhton')

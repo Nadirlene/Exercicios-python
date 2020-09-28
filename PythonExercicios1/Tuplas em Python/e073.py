@@ -1,0 +1,15 @@
+listaTimes = ('Flamengo', 'Santos', 'Palmeiras', 'Gremio', 'Athletico Paranaense', 'São Paulo', 'Internacional',
+         'Corinthians', 'Fortaleza', 'Goias', 'Bahia', 'Vasco da Gama',
+         'Atletico Mineiro', 'Fluminense', 'Botafogo', 'Ceará', 'Cruzeiro', 'CSA', 'Chapecoense', 'Avaí')
+print('-='*17)
+print(f'Lista de times do Brasileirão 2018: {listaTimes}')
+print('-='*17)
+print(f'Os 5 primeiros são {listaTimes[:5]}')
+print('-='*17)
+print(f'Os últimos 4 são {listaTimes[-4:]}')
+print('-='*17)
+print(f'Os últimos 4 são {listaTimes[16:]}')
+print('-='*17)
+print(f'Times em ordem alfabética: {sorted(listaTimes)}')
+print('-='*17)
+print(f'O Chapecoense está na {listaTimes.index("Chapecoense")+1}ª posição.')
